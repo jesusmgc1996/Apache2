@@ -29,6 +29,7 @@ SET time_zone = "+00:00";
 
 DROP DATABASE IF EXISTS intentos;
 CREATE DATABASE intentos;
+USE intentos;
 
 CREATE TABLE `profesores` (
   `dni_p` varchar(9) NOT NULL,
